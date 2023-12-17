@@ -8,10 +8,10 @@ win_size = 700
 window = pygame.display.set_mode((win_size, win_size))
 bird = pygame.Rect(win_size//6, win_size//2, win_size//20, win_size//20)
 pygame.display.set_caption('flappy bird')
-speed = win_size/100
+speed = win_size/120
 clock = pygame.time.Clock()
 jump = 0
-fps = 50
+fps = 40 
 image = pygame.image.load('bird.png')
 
 while True:
